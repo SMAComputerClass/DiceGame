@@ -1,0 +1,38 @@
+<!DOCTYPE html>             <!-- Declare that this an HTML5 document. -->
+<html lang="en">            <!-- Declare the content language. -->
+
+  <head>
+    <meta charset="utf-8">  <!-- Declare the document's character set. -->
+    <title>Dice Game</title>   <!-- Set the page title.  Will be displayed at the top of the browser window and in bookmarks.  -->
+    <link rel="stylesheet" href="index.css">    <!-- Include styles from index.css. -->
+
+  </head>
+
+  <body>
+
+    <!-- This div area is the die itself. I start the game with a default value of 1 for the die.-->
+    <div id="die">1</div>
+
+    <br>
+    <button type="button" id="rollButton">Roll</button>
+    <button type="button" id="pauseButton">Pause</button>
+    <br>
+    <br>
+    Bankroll: <span id="bankrollValue">100</span>
+    <br>
+    <br>
+    Bet Amount: <input type="text" id="betAmount">
+    <br>
+    <br>
+    Number Guess: <input type="text" id="numberGuess">
+    <br>
+    <p>Winners pay 6 to 1!</p>
+    <br>
+    Last Message: <span id="lastMessage">Welcome to the Game!</span>
+    <br>
+
+    <script src="index.js"></script>    <!-- Include index.js as a JavaScript script file. -->
+
+  </body>
+
+</html>
